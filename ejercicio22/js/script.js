@@ -9,6 +9,7 @@
 
 // INE https://www.ine.mx/wp-content/uploads/2019/12/ABC_CREDENCIAL2020.pdf
 
+// AA tiene claves de la INE y mis valores
 let ine = {
   nombre: "LUIS",
   apellidoPaterno: "VILLAFAÑA",
