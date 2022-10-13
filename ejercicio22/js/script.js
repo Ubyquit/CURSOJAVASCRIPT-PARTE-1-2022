@@ -7,6 +7,8 @@
 // snake case  snake_case todas se inician con minusculas pero estan unidad con _
 // pascal case PascalCase Todas las palabras inician con mayusculas
 
+// INE https://www.ine.mx/wp-content/uploads/2019/12/ABC_CREDENCIAL2020.pdf
+
 let ine = {
   nombre: "LUIS",
   apellidoPaterno: "VILLAFAÑA",
@@ -22,7 +24,7 @@ let apellidoMaterno = ine["apellidoMaterno"];
 document.write("<p><h1>INSTITUTO NACIONAL ELECTORAL</h1></p>");
 document.write("<p><h3>CREDENCIAL PARA VOTAR</h3></p>");
 
-document.write('<img src="https://media-exp2.licdn.com/dms/image/C4E03AQEfQcAaOIAZRw/profile-displayphoto-shrink_200_200/0/1517043051432?e=2147483647&v=beta&t=bT1j80XNtKTEvqCEEhVLxkP3jPJ4fZadQ0-Dtp8kWCg">');
+document.write('<img width="10%" src="img/avatar.png">');
 document.write(`<p>NOMBRE</p> ${apellidoPaterno}`);
 document.write(`<p>${apellidoMaterno}</p> `);
 document.write(`<p>${nombre}</p>`);
