@@ -20,14 +20,14 @@ if (TARJETABANCARIA == tarjetaBanco) {
   let nip = prompt("Ingresa tu NIP"); // Solicitar los datos del nip
   if (NIP == nip) {
     // Comparar los datos del nip
-    document.write("Buenvenido al banco AHO"); // dar la bienvenida
+    document.write("Buenvenido al banco AHO");
   } else {
     do {
       // Vamos a solicitar los datos del nip hasta que sean correctos
       nip = prompt(`Ingresa nuevamente tu NIP \nintento numero ${contador}\n`);
       contador++;
     } while (NIP != nip && contador <= 2);
-    document.write("NIP Invalido"); // dar la bienvenida
+    document.write("NIP Invalido");
   }
 } else {
   document.write("NIP y/o tarjeta invalida");
