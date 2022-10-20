@@ -3,6 +3,8 @@ Cajero automatico
 
 ingresar la tarjeta -> usuario
 nip -> contraseña
+
+//TAREA
 visualizar: retiro, ingreso, consulta de saldo
 */
 
